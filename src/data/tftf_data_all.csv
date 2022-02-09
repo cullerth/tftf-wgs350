@@ -1,0 +1,200 @@
+Title,Description,Deck
+WPWS prompt,"In the year 2100, in a future you would like to live in,",Arc
+Growth,"In a 'growth' future -- in which 'progress' has continued,",Arc
+Collapse,"In a 'collapse' future -- in which society as we know it has come apart,",Arc
+Discipline,"In a 'discipline' future -- in which order is deliberately coordinated or imposed,",Arc
+Transformation,"In a 'transformation' future -- in which a profound historical evolution has occurred,",Arc
+*something*,,Object
+advertisement,,Object
+artwork,,Object
+book,,Object
+building,,Object
+clothing,,Object
+corporation,,Object
+device,,Object
+document,,Object
+event,,Object
+festival,,Object
+game,,Object
+gift,,Object
+headline,,Object
+implant,,Object
+instrument,,Object
+kit,,Object
+law,,Object
+machine,,Object
+magazine cover,,Object
+map,,Object
+monument,,Object
+passport,,Object
+pill,,Object
+plant,,Object
+postcard,,Object
+poster,,Object
+product,,Object
+prosthetic,,Object
+public service announcement,,Object
+relic,,Object
+ritual,,Object
+show,,Object
+slogan,,Object
+snack,,Object
+song,,Object
+souvenir,,Object
+statue,,Object
+symbol,,Object
+tattoo,,Object
+tool,,Object
+toy,,Object
+vehicle,,Object
+video,,Object
+wildcard,artifact of your own choice,Object
+tool,wpws,Object
+fertilizer,wpws,Object
+fossel fuel,wpws,Object
+plant,,Object
+tree,,Object
+animal,,Object
+island,,Object
+film,,Object
+video,,Object
+profession,,Object
+*something else*,,Terrain
+agriculture,,Terrain
+the brain,,Terrain
+childhood,,Terrain
+citizenship ,,Terrain
+class,,Terrain
+climate,,Terrain
+cloning,,Terrain
+communications,,Terrain
+court,,Terrain
+disease,,Terrain
+the economy,,Terrain
+education,,Terrain
+entertainment,,Terrain
+environment,,Terrain
+equality,,Terrain
+family,,Terrain
+flight,,Terrain
+forest,,Terrain
+genetics,,Terrain
+gender,,Terrain
+governance,,Terrain
+health,,Terrain
+hobbies,,Terrain
+home,,Terrain
+identity,,Terrain
+insects,,Terrain
+journalism,,Terrain
+justice,,Terrain
+learning,,Terrain
+memory,,Terrain
+mining,,Terrain
+the moon,,Terrain
+music,,Terrain
+oceans,,Terrain
+oil,,Terrain
+old age,,Terrain
+pets,,Terrain
+power,,Terrain
+religion,,Terrain
+robots,,Terrain
+sex,,Terrain
+space,,Terrain
+sports,,Terrain
+theatre,,Terrain
+travel,,Terrain
+water,,Terrain
+wealth,,Terrain
+work,,Terrain
+zombies,,Terrain
+the zoo,,Terrain
+wildcard,a topic or location of your choice,Terrain
+agricultural system,wpws,Terrain
+pandemic,wpws,Terrain
+technology,wpws,Terrain
+climate change,wpws,Terrain
+globalization,wpws,Terrain
+North Carolina,wpws,Terrain
+ocean,wpws,Terrain
+mountains,wpws,Terrain
+North America,wpws,Terrain
+Mexico,wpws,Terrain
+Central America,wpws,Terrain
+Cherokee Nation,wpws,Terrain
+the Outer Banks,wpws,Terrain
+Charlanta,wpws,Terrain
+Piedmont Region,wpws,Terrain
+tourism,wpws,Terrain
+transportation,wpws,Terrain
+telecommunication,wpws,Terrain
+suburb,wpws,Terrain
+population,wpws,Terrain
+city,wpws,Terrain
+atmosphere,wpws,Terrain
+swamp lands,wpws,Terrain
+Africa,wpws,Terrain
+coal mine,wpws,Terrain
+oil field,wpws,Terrain
+urban heat island,wpws,Terrain
+insect habitat,wpws,Terrain
+bee hive,wpws,Terrain
+small town,wpws,Terrain
+grassland,wpws,Terrain
+laboratory,wpws,Terrain
+university,wpws,Terrain
+International Space Station,wpws,Terrain
+happiness,,Terrain
+empathy,,Terrain
+solidarity,,Terrain
+love,,Terrain
+equality,,Terrain
+film,,Terrain
+video,,Terrain
+concept,,Object
+idea,,Object
+test,,Object
+law,,Object
+rule,,Object
+principle,,Object
+habit,,Object
+practice,,Object
+belief,,Object
+ritual,,Object
+document,,Object
+system,,Object
+poem,,Object
+textbook,,Object
+painting,,Object
+drawing,,Object
+map,,Object
+picture,,Object
+photograph,,Object
+room,,Object
+image,,Object
+manual,,Object
+instrument,,Object
+work,,Terrain
+peace,,Terrain
+harmony,,Terrain
+nature,,Terrain
+water,,Terrain
+air,,Terrain
+land,,Terrain
+earth,,Terrain
+vegetation,,Terrain
+agriculture,,Terrain
+philosophy,,Terrain
+knowledge,,Terrain
+time,,Terrain
+animals,,Terrain
+oceans,,Terrain
+art ,,Terrain
+architecture,,Terrain
+literature,,Terrain
+cinema,,Terrain
+science,,Terrain
+medicine,,Terrain
+society,,Terrain
+sexuality,,Terrain
