@@ -25,7 +25,7 @@
       <h4> related to <br><em>{{ terraincards[0] }}</em></h4>
     </div>
     <div class="box c">
-      <p> FEMINIST MANIFESTO </p>
+      <p> FEMINIST ARC </p>
       <h4> and influenced by <br><em>{{ femmanifestos[0] }}</em>.</h4>
     </div>
     
@@ -39,7 +39,7 @@
     <br>
     <h2><i> What is it? </i></h2>
     <p>
-      Use <a href="https://docs.google.com/presentation/d/1-aDeVnUXjxogz2Zdl_zG4A5rRZJ5oLuvdP-G1S9qf6M/copy">this template</a> to respond to the prompt. 
+      Use <a href="https://docs.google.com/presentation/d/1z85wILoPLngr1Zz6oJzAUfolEx2P_PFhNK81GBjdwLs/copy">this template</a> to respond to the prompt. 
       <br>
     </p>  
     <h3>  </h3>
@@ -78,7 +78,7 @@ export default {
           {deck: "Arc", desc: "ARC outlines the type of future world that the “thing” comes from, and how far away it is from today."}, // There are four types of Arc, each an umbrella for countless possible scenarios: growth, collapse, discipline, transformation.
           {deck: "Object" , desc: "OBJECT is the focus for your imagination: a specific cultural artifact that reveals something about how this future is different from today."},
           {deck: "Terrain", desc: "TERRAIN is the thematic context or location where this object could be found in that future."},
-          {deck: "Feminist Manifesto", desc: ""}
+          {deck: "Feminist Manifesto", desc: "FEMINIST ARC refers to the feminist theory that you can use to build and interpret this particular future and your thing's place in it."}
       ] 
     }
   },
