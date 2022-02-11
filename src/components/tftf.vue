@@ -18,7 +18,7 @@
     </div>
     <div class="box b">
       <p> OBJECT </p>
-      <h4> there is a <br><em>{{ objectcards[0] }}</em></h4>
+      <h4> there is a/an <br><em>{{ objectcards[0] }}</em></h4>
     </div>
     <div class="box c">
       <p> TERRAIN </p>
@@ -75,7 +75,7 @@ export default {
         terraincards: [],
         femmanifestos: [],
         card_decks: [ 
-          {deck: "Arc", desc: "ARC outlines the type of future world that the “thing” comes from, and how far away it is from today."}, // There are four types of Arc, each an umbrella for countless possible scenarios: growth, collapse, discipline, transformation.
+          {deck: "Arc", desc: "ARC outlines the type of future world that the thing comes from, and how far away it is from today."}, // There are four types of Arc, each an umbrella for countless possible scenarios: growth, collapse, discipline, transformation.
           {deck: "Object" , desc: "OBJECT is the focus for your imagination: a specific cultural artifact that reveals something about how this future is different from today."},
           {deck: "Terrain", desc: "TERRAIN is the thematic context or location where this object could be found in that future."},
           {deck: "Feminist Manifesto", desc: "FEMINIST ARC refers to the feminist theory that you can use to build and interpret this particular future and your thing's place in it."}
