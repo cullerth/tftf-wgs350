@@ -1,5 +1,5 @@
 Title,Description,Deck
-WPWS prompt,"In the year 2100, in a future you would like to live in,",Arc
+Prompt Placeholder,"In a *blank* type of future, a future in which...",Arc
 Growth,"In a 'growth' future -- in which 'progress' has continued,",Arc
 Collapse,"In a 'collapse' future -- in which society as we know it has come apart,",Arc
 Discipline,"In a 'discipline' future -- in which order is deliberately coordinated or imposed,",Arc
@@ -70,12 +70,14 @@ cloning,,Terrain
 communications,,Terrain
 court,,Terrain
 disease,,Terrain
+drones,,Terrain
 the economy,,Terrain
 education,,Terrain
 entertainment,,Terrain
 environment,,Terrain
 equality,,Terrain
 family,,Terrain
+fashion,,Terrain
 flight,,Terrain
 forest,,Terrain
 genetics,,Terrain
@@ -86,6 +88,7 @@ hobbies,,Terrain
 home,,Terrain
 identity,,Terrain
 insects,,Terrain
+intellectual property,,Terrain
 journalism,,Terrain
 justice,,Terrain
 learning,,Terrain
@@ -101,100 +104,15 @@ power,,Terrain
 religion,,Terrain
 robots,,Terrain
 sex,,Terrain
+shopping,,Terrain
 space,,Terrain
 sports,,Terrain
 theatre,,Terrain
 travel,,Terrain
+war,,Terrain
 water,,Terrain
-wealth,,Terrain
+weath,,Terrain
 work,,Terrain
 zombies,,Terrain
 the zoo,,Terrain
-wildcard,a topic or location of your choice,Terrain
-agricultural system,wpws,Terrain
-pandemic,wpws,Terrain
-technology,wpws,Terrain
-climate change,wpws,Terrain
-globalization,wpws,Terrain
-North Carolina,wpws,Terrain
-ocean,wpws,Terrain
-mountains,wpws,Terrain
-North America,wpws,Terrain
-Mexico,wpws,Terrain
-Central America,wpws,Terrain
-Cherokee Nation,wpws,Terrain
-the Outer Banks,wpws,Terrain
-Charlanta,wpws,Terrain
-Piedmont Region,wpws,Terrain
-tourism,wpws,Terrain
-transportation,wpws,Terrain
-telecommunication,wpws,Terrain
-suburb,wpws,Terrain
-population,wpws,Terrain
-city,wpws,Terrain
-atmosphere,wpws,Terrain
-swamp lands,wpws,Terrain
-Africa,wpws,Terrain
-coal mine,wpws,Terrain
-oil field,wpws,Terrain
-urban heat island,wpws,Terrain
-insect habitat,wpws,Terrain
-bee hive,wpws,Terrain
-small town,wpws,Terrain
-grassland,wpws,Terrain
-laboratory,wpws,Terrain
-university,wpws,Terrain
-International Space Station,wpws,Terrain
-happiness,,Terrain
-empathy,,Terrain
-solidarity,,Terrain
-love,,Terrain
-equality,,Terrain
-film,,Terrain
-video,,Terrain
-concept,,Object
-idea,,Object
-test,,Object
-law,,Object
-rule,,Object
-principle,,Object
-habit,,Object
-practice,,Object
-belief,,Object
-ritual,,Object
-document,,Object
-system,,Object
-poem,,Object
-textbook,,Object
-painting,,Object
-drawing,,Object
-map,,Object
-picture,,Object
-photograph,,Object
-room,,Object
-image,,Object
-manual,,Object
-instrument,,Object
-work,,Terrain
-peace,,Terrain
-harmony,,Terrain
-nature,,Terrain
-water,,Terrain
-air,,Terrain
-land,,Terrain
-earth,,Terrain
-vegetation,,Terrain
-agriculture,,Terrain
-philosophy,,Terrain
-knowledge,,Terrain
-time,,Terrain
-animals,,Terrain
-oceans,,Terrain
-art ,,Terrain
-architecture,,Terrain
-literature,,Terrain
-cinema,,Terrain
-science,,Terrain
-medicine,,Terrain
-society,,Terrain
-sexuality,,Terrain
+wildcard,topic or location of your choice,Terrain
