@@ -22,7 +22,11 @@
     </div>
     <div class="box c">
       <p> TERRAIN </p>
-      <h4> related to <br><em>{{ terraincards[0] }}</em>.</h4>
+      <h4> related to <br><em>{{ terraincards[0] }}</em></h4>
+    </div>
+    <div class="box c">
+      <p> FEMINIST MANIFESTO </p>
+      <h4> and influenced by <br><em>{{ femmanifestos[0] }}</em>.</h4>
     </div>
     
 
@@ -69,11 +73,13 @@ export default {
         arccards: [],
         objectcards: [],
         terraincards: [],
+        femmanifestos: [],
         card_decks: [ 
           {deck: "Arc", desc: "ARC outlines the type of future world that the “thing” comes from, and how far away it is from today."}, // There are four types of Arc, each an umbrella for countless possible scenarios: growth, collapse, discipline, transformation.
           {deck: "Object" , desc: "OBJECT is the focus for your imagination: a specific cultural artifact that reveals something about how this future is different from today."},
-          {deck: "Terrain", desc: "TERRAIN is the thematic context or location where this object could be found in that future."
-      }] 
+          {deck: "Terrain", desc: "TERRAIN is the thematic context or location where this object could be found in that future."},
+          {deck: "Feminist Manifesto", desc: ""}
+      ] 
     }
   },
   created() {
@@ -92,6 +98,7 @@ export default {
           var arccards = []// vue.cards[0]['Description']
           var objectcards = []
           var terraincards = []
+          var femmanifestos = []
           // var arccards = []
           vue.cards.forEach(function(card) {
             if (card['Deck'] == 'Arc') {
@@ -100,7 +107,10 @@ export default {
               objectcards.push(card['Title'])
             } else if (card['Deck'] == 'Terrain') {
               terraincards.push(card['Title'])
-            } //else if (card['Deck'] == 'Arc') {
+            } else if (card['Deck'] == 'Feminist Manifesto') {
+              femmanifestos.push(card['Title'])
+            }
+            //else if (card['Deck'] == 'Arc') {
             //   arccards.push('In a "' + card['Title'] + '" future,' + card['Description'] + ", ")
             // } 
           });
@@ -108,6 +118,7 @@ export default {
           vue.arccards = arccards;
           vue.objectcards = objectcards;
           vue.terraincards = terraincards;
+          vue.femmanifestos = femmanifestos;
 
         }
       });
@@ -116,6 +127,7 @@ export default {
       this.arccards[0] = this.arccards[Math.floor(Math.random() * this.arccards.length)]
       this.objectcards[0] = this.objectcards[Math.floor(Math.random() * this.objectcards.length)]
       this.terraincards[0] = this.terraincards[Math.floor(Math.random() * this.terraincards.length)]
+      this.femmanifestos[0] = this.femmanifestos[Math.floor(Math.random() * this.femmanifestos.length)]
     }
   }
 }
@@ -137,10 +149,10 @@ li {
 @media screen and (min-width: 601px){
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));;
+    grid-template-columns: repeat(4, minmax(0, 1fr));;
     background-color: #fff;
     color: rgb(202, 189, 189);
-    max-width: 800px;
+    max-width: 1000px;
     /* max-height: 800px; */
     height: 410px; 
     margin: 0 auto; 
@@ -163,17 +175,19 @@ li {
   .wrapper .box:nth-child(1) {    background:#8ec741;           }
   .wrapper .box:nth-child(2) {    background:#00bef3;            }
   .wrapper .box:nth-child(3) {    background:#f36d7d;         }
+  .wrapper .box:nth-child(4) {
+  background:#bc8cbeff}
 }
 
 @media screen and (max-width: 600px){
   .wrapper {
     display: grid;
-    grid-template-rows: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
     background-color: #fff;
     color: rgb(202, 189, 189);
     max-width: 300px;
     /* max-height: 800px; */
-    height: 1000px;
+    height: 1400px;
     margin: 0 auto; 
     padding: 25px; 
     column-gap: 15px;
@@ -194,5 +208,7 @@ li {
   .wrapper .box:nth-child(1) {    background:#8ec741;           }
   .wrapper .box:nth-child(2) {    background:#00bef3;            }
   .wrapper .box:nth-child(3) {    background:#f36d7d;         }
+  .wrapper .box:nth-child(4) {
+  background:#bc8cbeff}
 }
 </style>
